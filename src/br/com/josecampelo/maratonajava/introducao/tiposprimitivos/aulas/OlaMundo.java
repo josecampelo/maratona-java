@@ -1,4 +1,4 @@
-package br.com.josecampelo.maratonajava.introducao;
+package br.com.josecampelo.maratonajava.introducao.tiposprimitivos.aulas;
 
 /**
  *  Isso é um comentário <b>javadoc</b>

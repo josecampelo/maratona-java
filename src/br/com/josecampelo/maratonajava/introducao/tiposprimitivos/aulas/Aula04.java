@@ -1,4 +1,4 @@
-package br.com.josecampelo.maratonajava.introducao.tiposprimitivos;
+package br.com.josecampelo.maratonajava.introducao.tiposprimitivos.aulas;
 
 public class Aula04 {
     public static void main(String[] args) {
