@@ -15,7 +15,8 @@ public class Exercicio06 {
         int danoBase = 70;
         double multiplicador = 1.25;
         double danoFinal = danoBase * multiplicador;
-        int resultado = (int) danoFinal;
+        System.out.println(danoFinal);
+        int resultado = (int) Math.round(danoFinal);
 
         System.out.println("O campeão recebeu " + resultado + " de dano!");
     }

@@ -31,6 +31,6 @@ public class Exercicio03 {
         System.out.println("Nome: valorFloat | Valor: " + valorFloat + " | Número de bytes: " + Float.SIZE / 8 + " | Número de bits: " + Float.SIZE);
         System.out.println("Nome: valorDouble | Valor: " + valorDouble + " | Número de bytes: " + Double.SIZE / 8 + " | Número de bits: " + Double.SIZE);
         System.out.println("Nome: valorChar | Valor: " + valorChar + " | Número de bytes: " + Character.SIZE / 8 + " | Número de bits: " + Character.SIZE);
-        System.out.println("Nome: valorBoolean | Valor: " + valorBoolean + " | Número de bytes: 1 ou 4 | Número de bits: 8 ou 64");
+        System.out.println("Nome: valorBoolean | Valor: " + valorBoolean + " | Número de bytes: Depende da JVM");
     }
 }

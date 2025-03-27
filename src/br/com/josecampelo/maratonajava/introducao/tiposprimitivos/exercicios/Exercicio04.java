@@ -20,6 +20,6 @@ public class Exercicio04 {
         System.out.println("Ouro total: " + ouroTotalInt + "    (Valor de cast explícito de double para int. Tipo int ignora as casas decimais e coloca apenas o valor inteiro)");
 
         double ouroTotalDouble = ouroTotalInt;
-        System.out.println("Ouro total: " + ouroTotalDouble + "  (Valor de cast implícito de int para double. Tipo double recebe todo o valor de int e coloca uma casa decimal)");
+        System.out.println("Ouro total: " + String.format("%.2f", ouroTotalDouble) + " (Valor de cast implícito de int para double. Tipo double recebe todo o valor de int e coloca uma casa decimal)");
     }
 }

@@ -23,13 +23,13 @@ public class Exercicio02 {
         String nomeCampeao = "Kha'Zix";
         int quantidadeVidaCampeao = 1100;
         double danoAtaqueBaseCampeao = 77.7;
-        boolean corpoOuDistanciaCampeao = true;
+        boolean isCorpoACorpo = true;
 
         System.out.println("------- Status do Campeão -------");
         System.out.println("Nome: " + nomeCampeao);
         System.out.println("Quantidade de vida: " + quantidadeVidaCampeao);
         System.out.println("Dano de ataque base: " + danoAtaqueBaseCampeao);
-        System.out.println("Campeão é corpo a corpo?: " + corpoOuDistanciaCampeao);
+        System.out.println("Campeão é corpo a corpo?: " + (isCorpoACorpo ? "Sim" : "Não"));
         System.out.println("---------------------------------");
     }
 }

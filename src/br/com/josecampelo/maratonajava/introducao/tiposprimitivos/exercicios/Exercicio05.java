@@ -16,6 +16,6 @@ public class Exercicio05 {
         System.out.println(nomeCampeao + " tem " + nomeCampeao.length() + " caracteres");
         System.out.println(nomeCampeao + " em maiúsculas: " + nomeCampeao.toUpperCase());
         System.out.println(nomeCampeao + " em minúsculas: " + nomeCampeao.toLowerCase());
-        System.out.println("É true ou false que " + nomeCampeao + " começa com a letra K?: " + nomeCampeao.startsWith("K"));
+        System.out.println(nomeCampeao + " começa com a letra 'K'? " + (nomeCampeao.startsWith("K") ? "Sim" : "Não"));
     }
 }
